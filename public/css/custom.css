@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Azonix;
+    src: url('../fonts/Azonix.otf');
+}
+
+@media not print {
+    body{
+        background-color: #d8eaea !important;
+    }
+}
+
+.navbar{
+    background-color: #93d4ee;
+}
+
+.input-group-text{
+    background-color: white !important;
+    border-color: white !important;
+}
+
+*::-webkit-scrollbar {
+    width: .6vw;
+}
+
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #9e9e9e;
+  outline: 1px solid slategrey;
+  border-radius: 2px;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+
+.allowNewLine {
+    white-space: pre-line;
+}
+
+.hide{
+    display: none !important;
+}
+
+@media (max-width: 425px) {
+    .container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 648px){
+    .table-small{
+        min-width: 100%;
+    }
+    .table-large{
+        min-width: 648px;
+    }
+}
+
+@media (max-width: 425px){
+    .justify-content-between .item{
+        width: 400px !important;
+    }
+}
